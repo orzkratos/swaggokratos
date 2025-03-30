@@ -16,7 +16,7 @@ func main() {
 	// example:
 	// contentData := done.VAE(os.ReadFile("/tmp/openapi.yaml")).Nice()
 	// this is just demo data:
-	contentData := []byte("openapi: 3.0.3\ninfo:\n    title: DEMO-TITLE\n    version: 0.0.1")
+	contentData := []byte("openapi: 3.0.3\ninfo:\n    title: DEMO-1-TITLE\n    version: 0.0.1")
 
 	swaggogin.SwaggerRoute(engine.Group(prefix), prefix, &swaggogin.Param{
 		SwaggerPath: "/swagger/a/*any",

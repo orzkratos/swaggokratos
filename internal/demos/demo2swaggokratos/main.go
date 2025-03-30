@@ -15,7 +15,7 @@ func main() {
 	param := &swaggogin.Param{
 		SwaggerPath: "/swagger/b/*any",
 		ExplorePath: "/abc/openapi-uvw.yaml",
-		ContentData: []byte("openapi: 3.0.3\ninfo:\n    title: DEMO-TITLE\n    version: 0.0.1"),
+		ContentData: []byte("openapi: 3.0.3\ninfo:\n    title: DEMO-2-TITLE\n    version: 0.0.1"),
 	}
 
 	swaggokratos.RegisterSwaggoHTTPServer(srv, "/doc/", []*swaggogin.Param{param})
