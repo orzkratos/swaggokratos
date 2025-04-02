@@ -1,9 +1,12 @@
 package swaggokratos
 
 import (
+	"regexp"
+
 	"github.com/gin-gonic/gin"
 	"github.com/go-kratos/kratos/v2/transport/http"
 	"github.com/orzkratos/swaggokratos/swaggogin"
+	"github.com/yyle88/must"
 )
 
 func RegisterSwaggoHTTPServer(srv *http.Server, prefix string, params []*swaggogin.Param) {
@@ -17,4 +20,11 @@ func RegisterSwaggoHTTPServer(srv *http.Server, prefix string, params []*swaggog
 	}
 
 	srv.HandlePrefix(prefix, engine)
+}
+
+func MustGetPortNum(address string) string {
+	re := regexp.MustCompile(`^(\d+)\.(\d+)\.(\d+)\.(\d+):(\d+)$`)
+	matches := re.FindStringSubmatch(address)
+	must.Len(matches, 6)
+	return matches[5] // 第 5 个捕获组是端口
 }

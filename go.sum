@@ -119,8 +119,8 @@ github.com/yyle88/mutexmap v1.0.10 h1:PIsx9KTdK6h1yH5NzBrPl21RrZ/XsE4IbgulMlhJzZ
 github.com/yyle88/mutexmap v1.0.10/go.mod h1:QUYDuARLPlGj414kHewQ5tt8jkDxQXoai8H3C4Gg+yc=
 github.com/yyle88/rese v0.0.8 h1:IdLs2VCnMuIraZvOHrJwCfbAr/BRqkQWNIM4/mMQ/ao=
 github.com/yyle88/rese v0.0.8/go.mod h1:DQ4kEu01G51q6McosiptvlC66JSQFAbMXau/+xg3dIc=
-github.com/yyle88/zaplog v0.0.20 h1:ByVj51j2C9p5tWw8wbIdmdrMK5IS6VECh/U746t321E=
-github.com/yyle88/zaplog v0.0.20/go.mod h1:jN9/2IXYlpHOgoIyOTid1EPlUyGBWzFjr0dX9YKLkC0=
+github.com/yyle88/zaplog v0.0.21 h1:b3YBP7ThOofapa8CS/k//Odc/hXmaCmkc1rV4Jgj1VQ=
+github.com/yyle88/zaplog v0.0.21/go.mod h1:jN9/2IXYlpHOgoIyOTid1EPlUyGBWzFjr0dX9YKLkC0=
 go.uber.org/goleak v1.3.0 h1:2K3zAYmnTNqV73imy9J1T3WC+gmCePx2hEGkimedGto=
 go.uber.org/goleak v1.3.0/go.mod h1:CoHD4mav9JJNrW/WLlf7HGZPjdw8EucARQHekz1X6bE=
 go.uber.org/multierr v1.11.0 h1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0=
